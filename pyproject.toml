@@ -1,0 +1,20 @@
+[project]
+name = "endonav-agent"
+version = "0.1.0"
+description = "Autonomous kidney stone treatment agent for endonav-sim"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "opencv-python>=4.8",
+    "endonav-sim",
+]
+
+[tool.uv.sources]
+endonav-sim = { git = "https://github.com/TylerFlar/endonav-sim" }
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["endonav*"]

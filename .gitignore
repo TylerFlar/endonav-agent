@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# uv
+.uv/
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Mission outputs
+vlm_frames/
+mission.mp4
+mission_log.json
+mission_metrics.json
+sweep_results.json
+*.mp4
