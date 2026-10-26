@@ -32,3 +32,8 @@ mission_log.json
 mission_metrics.json
 sweep_results.json
 *.mp4
+
+# Shared by all the ARCLab repos
+.pytest_cache/
+.ruff_cache/
+.claude/
