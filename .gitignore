@@ -25,6 +25,7 @@ uv.lock
 .DS_Store
 
 # Mission outputs
+runs/
 vlm_frames/
 mission.mp4
 mission_log.json

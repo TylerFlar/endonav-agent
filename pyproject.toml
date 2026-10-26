@@ -6,11 +6,14 @@ requires-python = ">=3.10"
 dependencies = [
     "numpy>=1.24",
     "opencv-python>=4.8",
+    "imageio[ffmpeg]>=2.31",
+    "flask>=3.0",
+    "requests>=2.31",
     "endonav-sim",
 ]
 
 [tool.uv.sources]
-endonav-sim = { git = "https://github.com/TylerFlar/endonav-sim" }
+endonav-sim = { path = "../endonav-sim", editable = true }
 
 [build-system]
 requires = ["setuptools>=61"]
